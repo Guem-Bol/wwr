@@ -1,0 +1,176 @@
+@import url(https://fonts.google.com/specimen/Roboto);
+
+
+:root {
+    --main-bg-color: brown;
+    --primary-color : #1f221f;
+    --secondary-color: #d5c4c4;
+    --accent1:#fab3bf;
+    --accent2:#7a4646;
+
+    --heading-font:'roboto';
+    --paragraph-font: 'raleway';
+
+
+    
+    --nav-background-color: #efdbdb;
+    --nav-link-color:#0000;
+    --nav-hover-link-color:#ffe1e1;
+    --nav-hover-background-color: #d89393;
+  }
+
+  body {
+
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+    list-style: none;
+  }
+  
+
+  h1, h2 {
+
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
+  
+
+  header{
+
+    padding: 20px;
+    background-color: var(--accent1);
+    margin: 0%;
+    padding: 0%;
+    grid-template-columns: 120px 1fr 2fr;
+  }
+
+  p {
+    padding: 25px;
+    padding-bottom: 20px;
+    
+  }
+
+  nav{
+    background-color: var(--nav-background-color);
+    font-size: 2rem;
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+  }
+
+.hero img{
+
+    display:block;
+    width: 40%;
+    height: auto;
+   
+    
+}
+
+section{
+
+   
+    font-size: 160%;
+    
+}
+
+h2{
+
+    padding-left: 40%;
+    padding-top: 75px;
+    
+}
+
+
+
+
+
+.sociallinks img{
+
+    width: 35%;
+    height: fit-content;
+    
+}
+
+
+.hero h1{
+
+    padding-left: 28%;
+
+    padding-top: 20px;
+
+    padding-bottom: 0%;
+    
+
+}
+
+
+
+.in a {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0%;
+
+    margin-right: 10%;
+
+    padding-right: 5%;
+
+    flex: 1 1 100%;
+}
+
+.on img{
+
+    float: left;
+
+    padding-top: 8%;
+
+
+
+    
+}
+
+
+.on p{
+
+    padding: 0%;
+    padding-top: 87px;
+    font-size: 27px;
+}
+
+
+.in {
+	display: flex;
+	list-style: none;
+}
+
+.in a {
+	display: block;
+	color: navy;
+	padding: 20px;
+	text-decoration: none;
+}
+
+figcaption{
+
+  background-color: #d5c4c4;
+  color: black;
+  font: italic;
+  padding: 7px;
+  text-align: center;
+  font-size: 120%;
+}
+
+
+figure{
+
+  border: thin white;
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+}
+
+.topic{
+
+  font-size: 45px;
+}
